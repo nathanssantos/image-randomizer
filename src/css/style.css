@@ -10,30 +10,47 @@
 body {
   height: 100vh;
   overflow: hidden;
+  background: #333;
 }
 
 div#app {
   height: 100%;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  text-align: center;
-}
-
-main {
-  background: #333;
-}
-
-aside {
   display: flex;
-  width: 200px;
-  padding: 5px;
-  background: #222;
-  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  flex-direction: column;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+  color: white;
+  font-weight: bold;
+  padding-top: 80px;
 }
 
-aside .bt-toggle {
-  height: 40px;
-  width: 40px;
-  background: url(../../assets/svg/icon-menu.svg) center/24px no-repeat;
+h1 {
+  margin-bottom: 60px;
+}
+
+.row {
+  display: flex;
+  max-width: 100vw;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col img {
+  transition: all 1s ease-in-out;
+  display: block;
+}
+
+.col:nth-of-type(n + 10) {
+  display: none;
+}
+
+.hidden-images {
+  padding-top: 80px;
+}
+
+.hidden-images__content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
 }
