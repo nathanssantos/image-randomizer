@@ -1,15 +1,16 @@
 {
-  "name": "new-project",
+  "name": "image-randomizer",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Randomize images inside a container.",
+  "main": "src/js/imageRandomizer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "browser-sync -f . --server"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["randomize", "images"],
+  "author": "Nathan Silva Santos <nathansilvasantos@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.26.7"
-  }
+  },
+  "private": false
 }
