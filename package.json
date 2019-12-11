@@ -3,7 +3,19 @@
   "slug": "Image Randomizer",
   "main": "src/js/imageRandomizer.js",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "Randomize images inside a container.",
+  "homepage": "https://nathanssantos.github.io/image-randomizer/",
+  "bugs": "https://github.com/nathanssantos/image-randomizer/issues",
+  "keywords": [
+    "randomize",
+    "images",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanssantos/image-randomizer.git"
+  },
   "author": {
     "name": "Nathan Silva Santos",
     "email": "nathansilvasantos@gmail.com",
@@ -16,15 +28,9 @@
       "url": "https://github.com/nathanssantos"
     }
   ],
-  "bugs": "https://github.com/flaviocopes/package/issues",
-  "license": "MIT",
   "scripts": {
     "start": "browser-sync -f . --server"
   },
-  "keywords": [
-    "randomize",
-    "images"
-  ],
   "devDependencies": {
     "browser-sync": "^2.26.7"
   },
