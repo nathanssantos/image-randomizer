@@ -66,3 +66,5 @@ const imageRandomizer = {
     }, 0);
   }
 };
+
+export default imageRandomizer

@@ -1,66 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/css/style.css" />
-    <title>Image Randomizer | Nathan S. Santos</title>
-  </head>
 
-  <body>
-    <main>
-      <h1>
-        Image Randomizer
-        <small>
-          Nathan S. Santos
-        </small>
-      </h1>
-      <div class="images">
-        <div class="image-container">
-          <img src="https://picsum.photos/id/1015/700/420" />
-        </div>
-        <div class="image-container">
-          <img src="https://picsum.photos/id/1016/700/420" />
-        </div>
-        <div class="image-container">
-          <img src="https://picsum.photos/id/1018/700/420" />
-        </div>
-        <div class="image-container">
-          <img src="https://picsum.photos/id/1019/700/420" />
-        </div>
-        <div class="image-container">
-          <img src="https://picsum.photos/id/1021/700/420" />
-        </div>
-        <div class="image-container">
-          <img src="https://picsum.photos/id/1022/700/420" />
-        </div>
-        <div class="image-container">
-          <img src="https://picsum.photos/id/1028/700/420" />
-        </div>
-        <div class="image-container">
-          <img src="https://picsum.photos/id/1037/700/420" />
-        </div>
-        <div class="image-container">
-          <img src="https://picsum.photos/id/1039/700/420" />
-        </div>
-        <div class="image-container">
-          <img src="https://picsum.photos/id/1041/700/420" />
-        </div>
-        <div class="image-container">
-          <img src="https://picsum.photos/id/1043/700/420" />
-        </div>
-        <div class="image-container">
-          <img src="https://picsum.photos/id/1052/700/420" />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/css/style.css" />
+  <title>Image Randomizer | Nathan S. Santos</title>
+</head>
+
+<body>
+  <main>
+
+    <h1>
+      Image Randomizer
+      <small>
+        Nathan S. Santos
+      </small>
+    </h1>
+
+    <div class="images">
+      <div class="image-container">
+        <img src="https://picsum.photos/id/1015/700/420" />
       </div>
-      <div class="hidden-images">
-        HIDDEN IMAGES
-        <div class="hidden-images__content"></div>
+      <div class="image-container">
+        <img src="https://picsum.photos/id/1016/700/420" />
       </div>
-    </main>
-    <script type="text/javascript" src="src/js/imageRandomizer.js"></script>
-    <script type="text/javascript">
-      imageRandomizer.init();
-    </script>
-  </body>
+      <div class="image-container">
+        <img src="https://picsum.photos/id/1018/700/420" />
+      </div>
+      <div class="image-container">
+        <img src="https://picsum.photos/id/1019/700/420" />
+      </div>
+      <div class="image-container">
+        <img src="https://picsum.photos/id/1021/700/420" />
+      </div>
+      <div class="image-container">
+        <img src="https://picsum.photos/id/1022/700/420" />
+      </div>
+      <div class="image-container">
+        <img src="https://picsum.photos/id/1028/700/420" />
+      </div>
+      <div class="image-container">
+        <img src="https://picsum.photos/id/1037/700/420" />
+      </div>
+      <div class="image-container">
+        <img src="https://picsum.photos/id/1039/700/420" />
+      </div>
+      <div class="image-container">
+        <img src="https://picsum.photos/id/1041/700/420" />
+      </div>
+      <div class="image-container">
+        <img src="https://picsum.photos/id/1043/700/420" />
+      </div>
+      <div class="image-container">
+        <img src="https://picsum.photos/id/1052/700/420" />
+      </div>
+    </div>
+
+    <div class="hidden-images">
+      HIDDEN IMAGES
+      <div class="hidden-images__content"></div>
+    </div>
+
+  </main>
+
+  <script type="module">
+    import imageRandomizer from "/src/js/imageRandomizer.js"
+    imageRandomizer.init();
+  </script>
+
+</body>
+
 </html>
